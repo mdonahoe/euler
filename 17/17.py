@@ -23,4 +23,3 @@ def sayit(n):
 	return word
 	
 print sum([len(sayit(i)) for i in range(1,1000)])+len('onethousand')
-	
